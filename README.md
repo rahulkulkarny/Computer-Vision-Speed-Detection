@@ -1,6 +1,6 @@
 ﻿[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10OYV7ZvouCXBPJ3oLjEwFBtZnCHuRJgR?usp=sharing
 )
-# Speed Estimation from Video using YOLOv9 and DeepSORT
+# Computer Vision based Object Recognition, Tracking & Speed Estimation
 
 This project focuses on Object Recognition, Tracking and Speed estimation. The goal is to estimate the speed of objects in real-time by utilizing YOLOv9 for real-time object detection and DeepSORT for multi-object tracking. By analyzing consecutive frames and calculating displacement over time, the system determines object speeds and overlays them on the video. This approach is useful for applications in traffic monitoring, sports analytics, and autonomous systems.
 
