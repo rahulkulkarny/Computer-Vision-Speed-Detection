@@ -2,7 +2,8 @@
 )
 # Speed Estimation from Video using YOLOv9 and DeepSORT
 
-This project estimates the speed of objects in a video using YOLOv9 for object detection and DeepSORT for tracking. The estimated speeds are overlaid on the video along with bounding boxes around the detected objects.
+This project focuses on Object Recognition, Tracking and Speed estimation. The goal is to estimate the speed of objects in real-time by utilizing YOLOv9 for real-time object detection and DeepSORT for multi-object tracking. By analyzing consecutive frames and calculating displacement over time, the system determines object speeds and overlays them on the video. This approach is useful for applications in traffic monitoring, sports analytics, and autonomous systems.
+
 
 ## Demo 
 <p align="center">
@@ -11,21 +12,11 @@ This project estimates the speed of objects in a video using YOLOv9 for object d
 </p>
 
 
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Acknowledgements](#acknowledgements)
-- [References](#references)
-
-
-
-
 ## Installation
 1. Clone this repository:
   ```
-   git clone https://github.com/kardSIM/Vehicle_Speed_Estimation.git
-   cd Vehicle_Speed_Estimation
+   git clone https://github.com/rahulkulkarny/Computer-Vision-Speed-Detection.git
+
   ```
 
 2. Create new environment:
@@ -84,12 +75,5 @@ This project estimates the speed of objects in a video using YOLOv9 for object d
    python object_tracking.py --blur_id 7
    ```
 
-## Acknowledgements
-- This code is built upon the YOLOv9 model and the DeepSort algorithm.
-- Credits to the authors and contributors of the respective repositories used in this project.
 
-## References
-- [Simple Online and Realtime Tracking with a Deep Association Metric](https://arxiv.org/abs/1703.07402)
-
-- [object detection and tracking in videos using the YOLOv9 object detection model and the DeepSORT algorithm](https://github.com/sujanshresstha/YOLOv9_DeepSORT/blob/main/README.md)
 
